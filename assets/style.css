@@ -1,0 +1,18 @@
+.container-fluid a img {
+  width: 70px;
+}
+.btn-group img {
+  width: 25px;
+}
+.space {
+  width: 20%;
+}
+.btn-black {
+  background-color: black;
+}
+.logo {
+  width: 120px;
+}
+.bg-gray {
+  background-color: rgb(146, 142, 142) (128, 128, 128, 0.416);
+}

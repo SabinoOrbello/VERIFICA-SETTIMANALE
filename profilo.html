@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body class="bg-dark">
+    <nav class="navbar bg-dark" data-bs-theme="dark">
+      <img class="logo" src="./assets/netflix_logo.png" alt="" />
+    </nav>
+    <div class="container d-flex justify-content-center w-50 flex-column">
+      <div class="d-flex w-100 border-bottom border-light">
+        <h1 class="text-light">Edit Profile</h1>
+      </div>
+      <div class="row mt-3 text-light w-100">
+        <div class="col-2">
+          <img src="./assets/avatar.png" alt="" style="width: 100px" />
+        </div>
+        <div class="col-8 text-light">
+          <h1 class="fs-6 bg-dark-subtle p-1">StriveStudent</h1>
+          <p>Lenguage:</p>
+          <button class="btn btn-black border border-light text-light">English</button>
+          <hr />
+          <p class="text-light">Maturity settings:</p>
+          <p class="bg-dark-subtle p-1">ALL MATURITY RATINGS</p>
+          <p>Show titles of all maturity ratings for this profile</p>
+          <button class="btn btn-dark border border-light-subtle text-light-emphasis rounded-0">EDIT</button>
+          <hr />
+          <p class="text-light-emphasis fs-4">Autoplay controls</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-check-lg border"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022"
+            />
+          </svg>
+          Autoplay next eplsode in a series on all device. <br />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-check-lg border"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022"
+            />
+          </svg>
+          Autoplay previews eplsode while browsing on all device.
+        </div>
+        <hr class="my-4" />
+        <div class="d-flex gap-4">
+          <button class="btn btn-light text-dark border border-light-subtle rounded-0 fw-bold">SAVE</button>
+          <button class="btn btn-dark text-light-emphasis border rounded-0 fw-bold">CANCEL</button>
+          <button class="btn btn-dark text-light-emphasis border rounded-0 fw-bold">DELETE PROFILE</button>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
